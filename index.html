@@ -22,13 +22,15 @@
             <form method="POST" action="#">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label for="full-name">Name (required):</label>
-                    <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required size="20">
+                    <label for="full-name">Name:</label>
+                    <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required size="20"><br>
 
-                    <label for="email">Email address (required):</label>
-                    <input placeholder="example@email.com" required id="email" type="email" name="email" size="20" />
-                    <label for="age">Age (optional):</label>
-                    <input type="number" name="age" id="age" min="3" max="100" />
+                    <label for="email">Email:</label>
+                    <input placeholder="example@email.com" required id="email" type="email" name="email"
+                        size="20" /><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" min="3" max="100" /><br>
                 </fieldset>
 
                 <fieldset>
@@ -71,7 +73,7 @@
                         <option value="good">Good</option>
                         <option value="very-good">Very Good</option>
                         <option selected value="excellent">Excellent</option>
-                    </select>
+                    </select><br>
 
                     <label for="food">How was the food?</label>
 
@@ -81,11 +83,16 @@
                         <option value="good">Good</option>
                         <option value="very-good">Very Good</option>
                         <option selected value="excellent">Excellent</option>
-                    </select>
+                    </select><br>
                 </fieldset>
 
-                <label for="comments">Other Comments?</label>
-                <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+                <fieldset>
+                    <legend>Message To The Team</legend>
+                    <!-- <label for="comments">Other Comments?</label> -->
+                    <textarea cols="30" rows="10" name="comments" id="comments"
+                        placeholder="Additional Comments Here......"></textarea>
+
+                </fieldset>
 
                 <button type="submit">Submit</button>
             </form>
