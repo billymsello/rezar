@@ -1,29 +1,30 @@
-@font-face{
+@font-face {
     font-family: cerova;
     src: url("CerovaRegular-BLA6G.otf")
 }
 
-body{
+body {
     margin: 0;
     background-color: rgba(7, 19, 197, 0.476);
+    overscroll-behavior: none;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(32, 109, 217);
     height: auto;
-    width:100%;
+    width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     position: fixed;
     top: 0;
-    left : 0;
+    left: 0;
 }
 
-.main-head-name{
-    font-family:cerova;
-    font-size:5rem;
-    color:black;
-    text-decoration:none;
+.main-head-name {
+    font-family: cerova;
+    font-size: 5rem;
+    color: black;
+    text-decoration: none;
 }
