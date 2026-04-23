@@ -3,6 +3,10 @@
     src: url("CerovaRegular-BLA6G.otf")
 }
 
+main {
+    margin-top: auto;
+}
+
 body {
     margin: 0;
     background-color: rgba(7, 19, 197, 0.476);
