@@ -16,6 +16,8 @@ header{
     height: auto;
     width:100%;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
+    top: 0;
+    left : 0;
 }
 
 .main-head-name{
