@@ -6,6 +6,11 @@
 :root {
     --header-height: 5rem;
 }
+
+body {
+    width: 100vw;
+}
+
 main {
     margin-top: 10vh;
     flex-grow: 1;
@@ -45,19 +50,22 @@ header {
     color: #d9d9d9;
     text-decoration: none;
 }
-footer{
+
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     background-color: rgb(214, 214, 214);
     /* height: var(--header-height); */
     height: auto;
 }
-.social-image-container{
-    display:flex;
-    justify-content:space-between;
+
+.social-image-container {
+    display: flex;
+    justify-content: space-between;
 }
+
 section {
     display: flex;
     justify-content: center;
@@ -65,23 +73,26 @@ section {
     height: 90vh;
     scroll-snap-align: start;
 }
-.devices{
+
+.devices {
     height: 90vh;
 }
 
-.page{
+.page {
     height: 90vh;
 }
-.page1{
+
+.page1 {
     flex-direction: row;
-    justify-content:left;
+    justify-content: left;
 }
-.txtscntnr{
-    display:flex;
-    align-items:center;
+
+.txtscntnr {
+    display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     /* border: 1px solid purple; */
     height: calc(100vh - var(--header-height));
-    flex-grow:1;
+    flex-grow: 1;
 }
