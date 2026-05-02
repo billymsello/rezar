@@ -72,6 +72,7 @@ section {
     align-items: center;
     height: 90vh;
     scroll-snap-align: start;
+    width: 100vw;
 }
 
 .devices {
