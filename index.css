@@ -1,20 +1,32 @@
 @font-face {
     font-family: cerova;
-    src: url("CerovaRegular-BLA6G.otf")
+    src: url("fonts/CerovaRegular-BLA6G.otf")
 }
 @font-face{
     font-family: inter;
-    src: url("/Inter,Space_Grotesk/Inter/Inter-VariableFont_opsz,wght.ttf")
+    src: url("fonts/Inter,Space_Grotesk/Inter/Inter-VariableFont_opsz,wght.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Space Grotesk;
+    src: url('fonts/Inter,Space_Grotesk/Inter/Inter-VariableFont_opsz,wght.ttf');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 :root {
     --header-height: 5rem;
 }
-
+html{
+    background-color:#d9d9d9;
+}
 body {
     width: 100vw;
     color:white;
-    font-family: inter;
+    /* font-family: inter; */
 }
 
 main {
