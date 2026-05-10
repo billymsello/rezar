@@ -6,13 +6,11 @@
     max-width: 102ch;
     margin: 0 auto;
     padding: 0 1.5rem;
-    /* border: 1px solid silver */
 }
 .creditsdate{
     display:flex;
-    flex-direction: column reversed;
+    flex-direction: column;
     justify-content:space-between;
-    /* border: 1px solid pink; */
     text-decoration: dashed ;
     font-size: 13px;
 }
@@ -33,10 +31,8 @@
 }
 .paragraphs
 {
-    /* width:70vw; */
     display:flex;
     flex-direction:column;
-    /* border: 1px solid brown; */
     text-wrap: 10vw;
     justify-content:center;
     align-items: center;
