@@ -1,0 +1,24 @@
+
+main{
+    display:flex;
+    justify-content:center;
+
+}
+
+.errorcontainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* border:1px solid red; */
+    height: 90vh;
+    width: 80vw;
+}
+button{
+    height: 4vh;
+    aspect-ratio: 5/1;
+    color: #2b6e6d;
+    background-color: #dcdcdc;
+    border:none;
+    border-radius: 15px;
+}
