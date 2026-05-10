@@ -23,8 +23,8 @@
 }
 .thumbnail{
     height:60vh;
-    aspect-ratio: 16/9;
     max-width: 100vw;
+    /* aspect-ratio: 1/1; */
 }
 .imagecontainer
 {
