@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    max-width: 70ch;
+    max-width: 102ch;
     margin: 0 auto;
     padding: 0 1.5rem;
-    border: 1px solid silver
+    /* border: 1px solid silver */
 }
-.credistsdate{
+.creditsdate{
     display:flex;
+    flex-direction: column reversed;
     justify-content:space-between;
     /* border: 1px solid pink; */
     text-decoration: dashed ;
